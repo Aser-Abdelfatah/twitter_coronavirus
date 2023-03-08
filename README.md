@@ -185,9 +185,12 @@ I'm more concerned with your ability to write a shell script and use `nohup`, `&
 
 ## Results:
 The visualizations plot each hashtag against the number of times it was used in the top 10 counteries and the top 10 languages. In general, the plots show that English was the most used language in the tweets provided, and the US is the country with the most tweets. 
-<img src=reduced.lang#_all.png width=100% />
-<img src=reducded.country#_all.png width=100% /> 
+![All Hashtags by Languge](https://github.com/Aser-Abdelfatah/twitter_coronavirus/blob/master/reduced.country_all.png)
+![All Hashtags by Languge](https://github.com/Aser-Abdelfatah/twitter_coronavirus/blob/master/reduced.lang_all.pn    g)
 Also, the most tweeted variation of the pandemic names in English was "covid19" followed by "corona" and "coronavirus".
-  <img src=reducded.lang#covid19.png width=100% />
-  <img src=reducded.lang#corona.png width=100% />
-  <img src=reducded.lang#coronavirus.png width=100% />
+
+![Covid19 Hashtag by Langauge](https://github.com/Aser-Abdelfatah/twitter_coronavirus/blob/master/reduced.lang%23covid19.png)
+
+![Corona Hashtag by Langauge](https://github.com/Aser-Abdelfatah/twitter_coronavirus/blob/master/reduced.lang%23corona.png)
+
+![Coronavirus Hashtag by Langauge](https://github.com/Aser-Abdelfatah/twitter_coronavirus/blob/master/reduced.lang%23coronavirus.png)
