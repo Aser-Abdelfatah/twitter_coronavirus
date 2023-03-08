@@ -39,13 +39,13 @@ for k, v in sorted(items[:10]):
 plt.bar(keys, values, color = "red")
 
 if args.input_path == "reduced.lang":
-    plt.title("Hashtag" + args.key + "by Language")
+    plt.title("Hashtag " + args.key + " by Language")
     plt.xlabel("Language")
 
 if args.input_path == "reduced.country":
-    plt.title("Hashtag" + args.key + "by Country")
+    plt.title("Hashtag " + args.key + " by Country")
     plt.xlabel("Country")
 
-plt.ylabel("count")
+plt.ylabel("Count")
 plt.savefig(args.input_path + args.key + ".png")
 plt.show()
