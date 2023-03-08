@@ -1,4 +1,6 @@
+
 # Coronavirus twitter analysis
+Note: Results are in the very end.
 
 You will scan all geotagged tweets sent in 2020 to monitor for the spread of the coronavirus on social media.
 
@@ -180,3 +182,12 @@ That's because you can get slightly different numbers depending on some of the d
 For example, should the term `corona` count tweets that contain `coronavirus` as well as tweets that contain just `corona`?
 These are relatively insignificant decisions.
 I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
+
+## Results:
+The visualizations plot each hashtag against the number of times it was used in the top 10 counteries and the top 10 languages. In general, the plots show that English was the most used language in the tweets provided, and the US is the country with the most tweets. 
+![reduced.lang#_all.png]
+![reduced.country#_all.png]
+Also, the most tweeted variation of the pandemic names in English was "covid19" followed by "corona" and "coronavirus".
+![reduced.lang#covid19.png]
+![reduced.lang#corona.png]
+![reduced.lang#coronavirus.png]
